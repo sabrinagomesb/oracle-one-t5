@@ -20,6 +20,10 @@ public class TestaMetodo {
 		System.out.println(contaDaSabrina.saldo);
 		System.out.println(contaDoPaulo.saldo);
 
-
+		// antes de atribuir o valor, o atributo é exibido como null
+		System.out.println(contaDoPaulo.titular);
+		
+		contaDoPaulo.titular = "Paulo Silveira";
+		System.out.println(contaDoPaulo.titular);
 	}
 }

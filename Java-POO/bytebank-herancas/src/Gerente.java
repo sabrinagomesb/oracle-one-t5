@@ -1,5 +1,5 @@
-
-public class Gerente extends Funcionario{
+// Gerente é um Funcionário e é um Autenticável. Assina o contrato Autenticavel
+public class Gerente extends Funcionario implements Autenticavel {
 
 	private int senha;
 	
@@ -17,7 +17,7 @@ public class Gerente extends Funcionario{
 	}
 	
 	public double getBonificacao() {
-		return super.getBonificacao() + super.getSalario();
+		return super.getSalario();
 	}
 
 	

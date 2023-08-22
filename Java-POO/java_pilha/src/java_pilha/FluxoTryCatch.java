@@ -23,7 +23,7 @@ public class FluxoTryCatch {
     private static void metodo2() {
         System.out.println("Ini do metodo2");
        
-        throw new ArithmeticException("Algo deu errado!");
+        throw new MinhaExcecao("Algo deu muito errado!");
         
        // System.out.println("Fim do metodo2");
     }
